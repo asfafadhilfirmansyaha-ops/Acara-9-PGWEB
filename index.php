@@ -14,7 +14,7 @@ echo "<table border='1'><tr>
       <th>Kecamatan</th><th>Longitude</th><th>Latitude</th>
       <th>Luas</th><th>Jumlah Penduduk</th>
       <th colspan='2'>Aksi</th></tr>";
-
+git pull origin main --no-rebase --allow-unrelated-histories --no-edit
 while ($row = $result->fetch_assoc()) {
     $id = (int) $row["id"];
     echo "<tr>
